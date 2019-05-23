@@ -1,5 +1,5 @@
 // {
-//     "_id": "5cd1971502f8c02c14c62ba6",
+//     "_id": "45678",
 //     "user": {
 //             "name": "Alex",
 //             "cash": 3200,
@@ -262,35 +262,3 @@ let DataManager = (function() {
 })();
 
 export default DataManager;
-
-// export default class UserManager {
-//     constructor(userData){
-//         this.data = userData;
-//         this.member = this.data["members"][0];
-//     }
-
-//     getMember(index = 0) {
-//         this.member = this.data["members"][index];
-//         return this.member;
-//     }
-
-//     getMemberCash() {
-//         return this.member["memberCash"];
-//     }
-    
-//     getMonthName() {
-//         return this.member["months"].map( i => i["name"] );
-//     }
-
-//     getLossIncomeData() {
-//         let result = this.member["months"]
-//                     .map( i => i.lossIncome );
-//         if ( result ) {
-//             return result;
-//         }
-//     }
-
-//     getTotalMonths() {
-//         return this.member["months"].length;
-//     }
-// }
